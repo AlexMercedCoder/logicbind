@@ -1,16 +1,3 @@
-# LogicBind
-### by Alex Merced of AlexMercedCoder.com
-
-## Purpose
-
-To create stateful logic. Essential you can create an object in which your application can respond to changes in the way you want.
-
-## API
-
-### createLogicBind
-takes a configuration object and returns a proxy object. When the properties on this object are changed it will trigger a callback.
-
-```js
 // Import the createLogicBind function
 const createLogicBind = require("./index")
 
@@ -33,6 +20,3 @@ const state = createLogicBind(config)
 state.count++
 // logs gouda
 state.stuff ="weeeee"
-```
-
-That's pretty much it!
